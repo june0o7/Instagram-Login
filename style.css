@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 350px;
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0095f6;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #007bbf;
+}
+
+.divider {
+    margin: 20px 0;
+    border-top: 1px solid #dbdbdb;
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 175px; /* Adjust the size as needed */
+    margin-bottom: 20px;
+}
